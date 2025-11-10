@@ -1,0 +1,13 @@
+.square{
+    display: block;
+}
+
+.square:hover{
+    animation: colorChange 0.5s linear forwards;
+}
+
+@keyframes colorChange {
+  0% { background-color: white; }
+  50% {background-color: white;}
+  100% { background-color: black; } /* fade kembali ke hitam */
+}
