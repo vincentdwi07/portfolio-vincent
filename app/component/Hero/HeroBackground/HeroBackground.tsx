@@ -31,8 +31,6 @@ export default function HeroBackground(children: React.PropsWithChildren) {
 		return () => clearInterval(interval)
 	}, [count])
 
-	console.log(random)
-
   return (
 	<>
 		<div
@@ -54,7 +52,7 @@ export default function HeroBackground(children: React.PropsWithChildren) {
 
 			<div 
 				className="absolute top-0 left-0 w-full h-full pointer-events-none"
-				style={{ background: "rgba(0,0,0,0.3)" }}
+				style={{ background: "rgba(0,0,0,0.5)" }}
 			>
 			</div>
 
