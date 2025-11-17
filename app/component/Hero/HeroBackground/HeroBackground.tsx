@@ -31,8 +31,6 @@ export default function HeroBackground(children: React.PropsWithChildren) {
 		return () => clearInterval(interval)
 	}, [count])
 
-	console.log(random)
-
   return (
 	<>
 		<div
